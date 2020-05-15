@@ -11,7 +11,7 @@ class Aboutme extends Component{
                     <Cell className="about-left" col={4}>
 
                         <div style={{textAlign:'center'}}>
-                            <img src="Resume photo.jpeg"
+                            <img src={require("./Resume Photo.jpeg")}
                             alt="avatar"
                             style={{height:'300px',width:'300px'}}/>
 

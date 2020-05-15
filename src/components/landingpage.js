@@ -10,7 +10,7 @@ class LandingPage extends Component{
 
                     <img
                     
-                    src="IMG_1620.JPG"
+                     src={require("./IMG_1620.JPG")}
                     alt="avatar"
                     className = "avatar-img"
                     

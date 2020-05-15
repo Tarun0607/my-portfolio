@@ -4,7 +4,7 @@ class Resume extends Component{
     render(){
         return (
             <div class="resume-page">
-                <embed src="My Resume.pdf" ></embed>
+                <embed src={require("./My Resume.pdf")} ></embed>
             </div>
         )
     }

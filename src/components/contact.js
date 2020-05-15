@@ -11,7 +11,7 @@ class Contact extends Component{
 
                     <h2>TARUN A H</h2>
                     <img 
-                        src="IMG_TARUN.jfif"
+                        src={require("./IMG_TARUN.jfif")}
                         alt="avatar"
                         style={{height:'300px', border:'2px solid red'}}></img>
                     <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>Undergraduate Student on Computer Science and Engineering from <br/>VIT , Chennai</p>
