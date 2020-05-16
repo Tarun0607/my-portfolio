@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.0dd74c6a.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.3cd0e52f.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.3cd0e52f.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.f35a627a.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.c264add6.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.c264add6.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.4c4d590e.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.4c4d590e.js.map",
     "static/css/2.b6a8c48d.chunk.css": "/my-portfolio/static/css/2.b6a8c48d.chunk.css",
-    "static/js/2.9a187c07.chunk.js": "/my-portfolio/static/js/2.9a187c07.chunk.js",
-    "static/js/2.9a187c07.chunk.js.map": "/my-portfolio/static/js/2.9a187c07.chunk.js.map",
+    "static/js/2.0fc7a148.chunk.js": "/my-portfolio/static/js/2.0fc7a148.chunk.js",
+    "static/js/2.0fc7a148.chunk.js.map": "/my-portfolio/static/js/2.0fc7a148.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.8920713fe4b121a5bbeab78e951167cf.js": "/my-portfolio/precache-manifest.8920713fe4b121a5bbeab78e951167cf.js",
+    "precache-manifest.0f43c9027af2d55612cbbf1d33ef8f92.js": "/my-portfolio/precache-manifest.0f43c9027af2d55612cbbf1d33ef8f92.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
     "static/css/2.b6a8c48d.chunk.css.map": "/my-portfolio/static/css/2.b6a8c48d.chunk.css.map",
-    "static/css/main.0dd74c6a.chunk.css.map": "/my-portfolio/static/css/main.0dd74c6a.chunk.css.map",
-    "static/js/2.9a187c07.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.9a187c07.chunk.js.LICENSE.txt",
+    "static/css/main.f35a627a.chunk.css.map": "/my-portfolio/static/css/main.f35a627a.chunk.css.map",
+    "static/js/2.0fc7a148.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.0fc7a148.chunk.js.LICENSE.txt",
     "static/media/IMG_1620.JPG": "/my-portfolio/static/media/IMG_1620.536007af.JPG",
     "static/media/IMG_TARUN.jfif": "/my-portfolio/static/media/IMG_TARUN.761191f5.jfif",
     "static/media/My Resume.pdf": "/my-portfolio/static/media/My Resume.0a04bc6c.pdf",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.4c4d590e.js",
     "static/css/2.b6a8c48d.chunk.css",
-    "static/js/2.9a187c07.chunk.js",
-    "static/css/main.0dd74c6a.chunk.css",
-    "static/js/main.3cd0e52f.chunk.js"
+    "static/js/2.0fc7a148.chunk.js",
+    "static/css/main.f35a627a.chunk.css",
+    "static/js/main.c264add6.chunk.js"
   ]
 }
