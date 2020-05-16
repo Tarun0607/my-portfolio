@@ -20,8 +20,8 @@ class LandingPage extends Component{
                     <div className="banner-text">
                         <h1>Tarun A H</h1>
                         <hr/>
-                        <p>A technological enthusiast who is keen in improving and enhancing his skills day by day<br/>
-                        and very much interested in Machine Learning and Artificial Intelligence.<br/><br/>
+                        <p>A technology enthusiast who is keen in exploring and learning more day-by-day. My interests lie in the field of Artificial
+                            Intelligence and Machine Learning!!.<br/><br/>
                         Check me out on these handles as well!!</p>
                         <div className="social-links">
 

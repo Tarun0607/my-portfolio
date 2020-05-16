@@ -6,13 +6,19 @@ class Project extends Component{
     constructor(props){
         super(props);
         this.state={activeTab:0}
+        this.dup=React.createRef();
     }
 
     toggleCategories(){
-    if(this.state.activeTab === 0){
+    
         return(
+            
             <div className="projects-grid">
-            <Card shadow={5} style={{minWidth : '450' ,margin: 'auto',width:'35%' }}>
+                
+                <Grid style={{justifyContent:'center',margin:'auto'}}>
+                
+                <Cell col={5} >
+            <Card shadow={5}>
                 <CardTitle style={{color: '#333' , height : '176px',background: 'url(https://www.laptoponbudget.com/wp-content/uploads/2019/04/Best-Laptops-for-Android-Studio.png) center / cover'}}>
                     
                 </CardTitle>
@@ -41,9 +47,10 @@ class Project extends Component{
             </CardMenu>
 
             </Card>
+            </Cell>
 
-
-            <Card shadow={5} style={{minWidth : '450' ,margin: 'auto',width:'35%' }}>
+            <Cell col={5}>
+            <Card shadow={5}>
                 <CardTitle style={{color: '#333' , height : '176px',background: 'url(https://www.laptoponbudget.com/wp-content/uploads/2019/04/Best-Laptops-for-Android-Studio.png) center / cover'}}>
                     
                 </CardTitle>
@@ -68,18 +75,19 @@ class Project extends Component{
             </CardMenu>
 
             </Card>
+            </Cell>
 
 
 
             
-            </div>
-        )
-    }
-
-    else if(this.state.activeTab===1){
-        return(
-            <div>
-                <Card shadow={5} style={{minWidth : '450' ,margin: 'auto',width:'35%' }}>
+            
+            
+            
+    
+            
+               
+                <Cell col={5}>
+                <Card shadow={5}>
                 <CardTitle style={{color: '#333' , height : '176px',background: 'url(https://miro.medium.com/max/1200/1*pE2fOVDikEUwiQJlh4ggzg.jpeg) center / cover'}}>
                     
                 </CardTitle>
@@ -105,17 +113,14 @@ class Project extends Component{
             </CardMenu>
 
             </Card>
-    
-            </div>
-        )
+            </Cell>
+            
+            
 
-        }
-
-    else if(this.state.activeTab===2){
-        return(
-            <div className="projects-grid">
-
-            <Card shadow={5} style={{minWidth : '450' ,margin: 'auto',width:'35%' }}>
+            
+            
+            <Cell col={5}>
+            <Card shadow={5}>
                 <CardTitle style={{color: '#333' , height : '176px',background: 'url(https://cdn.slant.co/24e8c381-eaac-4141-aa28-7921a1fd8833/-/format/jpeg/-/progressive/yes/-/preview/480x480/) center / cover'}}>
                     
                 </CardTitle>
@@ -138,10 +143,12 @@ class Project extends Component{
             <CardMenu style = {{color:'#FF5733'}}>
                 <IconButton name="share"></IconButton>
             </CardMenu>
-
+            
             </Card>
+            </Cell>
 
-            <Card shadow={5} style={{minWidth : '450' ,margin: 'auto',width:'35%' }}>
+            <Cell col={5}>
+            <Card shadow={5}>
                 <CardTitle style={{color: '#333' , height : '176px',background: 'url(https://cdn.slant.co/24e8c381-eaac-4141-aa28-7921a1fd8833/-/format/jpeg/-/progressive/yes/-/preview/480x480/) center / cover'}}>
                     
                 </CardTitle>
@@ -167,20 +174,17 @@ class Project extends Component{
             </CardMenu>
 
             </Card>
-    
+            </Cell>
 
     
 
-
-            </div>
-        )
-    }
-
-    else if(this.state.activeTab==3){
-
-        return(
-            <div>
-                <Card shadow={5} style={{minWidth : '450' ,margin: 'auto',width:'35%' }}>
+            
+            
+            
+               
+               
+                <Cell col={5}>
+                <Card shadow={5} >
                 <CardTitle style={{color: '#333' , height : '176px',background: 'url(https://miro.medium.com/max/5442/1*KpDOKMFAgDWaGTQHL0r70g.png) center / cover'}}>
                     
                 </CardTitle>
@@ -206,15 +210,15 @@ class Project extends Component{
             </CardMenu>
 
             </Card>
-    
-            </div>
-        )
-    }
+            </Cell>
+            
+        
+            
 
-    else{
-        return(
-            <div>
-                <Card shadow={5} style={{minWidth : '450' ,margin: 'auto',width:'35%' }}>
+            
+            
+                <Cell col={5}>
+                <Card shadow={5}>
                 <CardTitle style={{color: '#333' , height : '176px',background: 'url(https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_690e90c5de441951cf5715b08b1d5420/arduino-ide.png) center / cover'}}>
                     
                 </CardTitle>
@@ -240,45 +244,37 @@ class Project extends Component{
             </CardMenu>
 
             </Card>
-    
+            </Cell>
+            </Grid>
+            
             </div>
+            
         )
-    }
+    
 
 }
 
     
-    
     render(){
         return (
-            <div className="category-tabs">
-                <Tabs activeTab={this.state.activeTab} onChange={(tabId)=>this.setState({activeTab:tabId})}>
-                    <Tab>Android Studio</Tab>
-                    <Tab>HTML+CSS</Tab>
-                    <Tab>Visual Studio</Tab>
-                    <Tab>Data Structures</Tab>
-                    <Tab>Arduino</Tab>
-                </Tabs>
+            
+                    
 
-                
-                    <Grid>
+                    
 
-                    <Cell col={12}>
-
-                        <div className="content">
+                        <div className="content" style={{justifyContent:'center'}}>
                         {this.toggleCategories()}
                         </div>
-                    </Cell>
+                        
 
-                    </Grid>
+                    
                   
 
                 
-            </div>
+            
             
         )
     }
 }
-
 
 export default Project;

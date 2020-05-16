@@ -27,52 +27,26 @@ class Contact extends Component{
                     <h2>Contact Me</h2>
                     <hr/>
 
-                    <div className="contact-list">
-                    <List>
-                        <ListItem>
-                            <ListItemContent style={{fontSize:'30px',fontFamily:'Anton'}}>
-                                <i className="fa fa-phone-square" aria-hidden="true"/>
-                                +91-8098672000</ListItemContent>
-                        </ListItem>
-                        <ListItem>
-                            <ListItemContent style={{fontSize:'20px',fontFamily:'Anton'}}>
-                                <i className="fa fa-envelope-square" aria-hidden="true"/>
-                                tarun.ambili123@gmail.com</ListItemContent>
-                        </ListItem>
-                        <ListItem>
-                            <ListItemContent style={{fontSize:'30px',fontFamily:'Anton'}}>
-                                <i className="fa fa-telegram" aria-hidden="true"/>
-                                +91-8098672000
-                                </ListItemContent>
-                        </ListItem>
-                        <ListItem>
-                            <ListItemContent style={{fontSize:'30px',fontFamily:'Anton'}}>
-                                <i className="fa fa-whatsapp" aria-hidden="true"/>
-                                <a href="https://wa.me/8098672000" target="_blank">
+                    <div style={{textAlign:'center'}}className="contact-list">
+                        <h4 style={{fontWeight:'bold'}}>Mobile</h4>
+                        <p>+91 - 8098672000</p>
+                        <h4 style={{fontWeight:'bold'}}>E-mail</h4>
+                        <a color="black" href="https://mail.google.com/mail/?view=cm&fs=1&to=tarun.ambili123@gmail.com">tarun.ambili123@gmail.com</a>
+                        <h4 style={{fontWeight:'bold'}}>Whatsapp</h4>
+                        <a href="https://wa.me/8098672000" target="_blank">
                                 <Button raised colored>GET IN TOUCH</Button>
-                                </a>
-                                </ListItemContent>
-                        </ListItem>
-                        <ListItem>
-                            <ListItemContent style={{fontSize:'30px',fontFamily:'Anton'}}>
-                                <i className="fa fa-facebook-square" aria-hidden="true"/>
-                                <a style={{color:"#333"}} href="https://www.facebook.com/harikuttan.tarun" target="_blank">
+                        </a>
+                        <h4 style={{fontWeight:'bold'}}>Telegram</h4>
+                        <p>+91-9098672000</p>
+                        <h4 style={{fontWeight:'bold'}}>Facebook</h4>
+                        <a style={{color:"#333"}} href="https://www.facebook.com/harikuttan.tarun" target="_blank">
                                 @Harikuttan Tarun
-                                </a>
-                                </ListItemContent>
-                        </ListItem>
-                        <ListItem>
-                            <ListItemContent style={{fontSize:'30px',fontFamily:'Anton'}}>
-                                <i className="fa fa-quora" aria-hidden="true"/>
-                                <a style={{color:"#333"}} href="https://www.quora.com/profile/Tarun-Ambili" target="_blank">
+                        </a>
+                        <h4 style={{fontWeight:'bold'}}>Quora</h4>
+                        <a style={{color:"#333"}} href="https://www.quora.com/profile/Tarun-Ambili" target="_blank">
                                 @Tarun Ambili
                                 </a>
-                                </ListItemContent>
-                        </ListItem>
-
-                        
-                        
-                    </List>
+                    
                 </div>
 
             </Cell>
