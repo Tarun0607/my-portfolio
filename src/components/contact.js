@@ -13,7 +13,7 @@ class Contact extends Component{
                     <img 
                         src={require("./IMG_TARUN.jfif")}
                         alt="avatar"
-                        style={{margin:'auto',height:'300px',justifyContent:'center', border:'2px solid red'}}></img>
+                        style={{margin:'auto',height:'300px',width:'fit-parent', border:'2px solid red'}}></img>
                     <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>Undergraduate Student on Computer Science and Engineering from <br/>VIT , Chennai</p>
 
                 </Cell>

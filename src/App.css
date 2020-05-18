@@ -25,6 +25,8 @@ text-align: center;
   height:250px;
   justify-content: center;
   padding-top: 5em;
+  margin:auto;
+  width: fit-parent;
 }
 
 .banner-text{
