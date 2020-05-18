@@ -13,7 +13,7 @@ class Contact extends Component{
                     <img 
                         src={require("./IMG_TARUN.jfif")}
                         alt="avatar"
-                        style={{height:'300px',width:'math-parent', border:'2px solid red'}}></img>
+                        style={{margin:'auto',height:'300px',justifyContent:'center', border:'2px solid red'}}></img>
                     <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>Undergraduate Student on Computer Science and Engineering from <br/>VIT , Chennai</p>
 
                 </Cell>
@@ -33,11 +33,11 @@ class Contact extends Component{
                         <h4 style={{fontWeight:'bold'}}>E-mail</h4>
                         <a color="black" href="https://mail.google.com/mail/?view=cm&fs=1&to=tarun.ambili123@gmail.com">tarun.ambili123@gmail.com</a>
                         <h4 style={{fontWeight:'bold'}}>Whatsapp</h4>
-                        <a href="https://wa.me/8098672000" target="_blank">
+                        <a href="https://wa.me/918098672000" target="_blank">
                                 <Button raised colored>GET IN TOUCH</Button>
                         </a>
                         <h4 style={{fontWeight:'bold'}}>Telegram</h4>
-                        <p>+91-9098672000</p>
+                        <p>+91-8098672000</p>
                         <h4 style={{fontWeight:'bold'}}>Facebook</h4>
                         <a style={{color:"#333"}} href="https://www.facebook.com/harikuttan.tarun" target="_blank">
                                 @Harikuttan Tarun
