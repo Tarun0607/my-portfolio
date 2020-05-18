@@ -23,6 +23,7 @@ text-align: center;
 
 .avatar-img{
   height:250px;
+  justify-content: center;
   padding-top: 5em;
 }
 
