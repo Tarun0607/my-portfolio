@@ -12,19 +12,24 @@ class App extends Component{
     <Layout>
         <Header className = "header-color" title="My-Profile" scroll>
             <Navigation>
-                <Link to="/resume">Resume</Link>
+                <a target="_blank" href="https://docs.google.com/gview?url=https://github.com/Tarun0607/Resume/raw/master/My%20Resume.pdf&embedded=true">Resume</a>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
+                <Link to="">Powered by &nbsp;
+                <img style={{height:"40px",width:"40px"}} src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"/>
+                </Link>
             </Navigation>
         </Header>
         <Drawer title="My-Profile">
             <Navigation>
-            <Link to="/resume">Resume</Link>
+            <a target="_blank" href="https://docs.google.com/gview?url=https://github.com/Tarun0607/Resume/raw/master/My%20Resume.pdf&embedded=true">Resume</a>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
-                
+                <Link to="">Powered by &nbsp;
+                <img style={{height:"40px",width:"40px"}} src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"/>
+                </Link>
 
             </Navigation>
         </Drawer>

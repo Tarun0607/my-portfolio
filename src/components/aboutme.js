@@ -38,7 +38,7 @@ class Aboutme extends Component{
                         <p style={{font:'sans-serif',fontsize:"66px",fontWeight:"bold",lineHeight:"2.0"}}>Hey there!! Technology has always been a fascination to me since my childhood . It all started when my dad gifted me a laptop when 
                             I was in my 3rd grade . Being an admirer of technology , i really wished to study Computer Science and Engineering in the best educational
                             Institution in the country . I was a JEE aspirant but couldnt get through the cut-off required for IIT's and NIT's as well . But then , I had a firm faith in my skills
-                            and started exploring more about the latest technologies . I look forward to participate in hackathons and providing innovative solutions for the
+                            and started exploring more about the latest technologies . I look forward to participate in hackathons and provide innovative solutions for the
                             problems .  
                         </p>
 
@@ -47,7 +47,7 @@ class Aboutme extends Component{
                             Now , Solving problems has become my hobby!!
                         </p>
 
-                        <p style={{font:'sans-serif',fontsize:"66px",fontWeight:"bold",lineHeight:"2.0"}}>I was a resident in Salem , a city in TamilNadu , for around 10 years. I represented my School in various competitions like quizzes, Speeches , writing .
+                        <p style={{font:'sans-serif',fontsize:"66px",fontWeight:"bold",lineHeight:"2.0"}}>I was a resident of Salem , a city in TamilNadu , for around 10 years. I represented my School in various competitions like quizzes, Speeches , writing .
                             I was able to win some trophies for my School too!! . The most memorable event is winning district 1st in Salem in a letter-writing competition in 2016.
                             I could remember the days when I stammered a lot just to speak 2 lines and the mistakes I made just to write 2 lines . I have went through many embrassing moments.Being a strong believer of effort and Hardwork , 
                             I struggled a lot to overcome my fear and improve my skills .  
@@ -56,17 +56,17 @@ class Aboutme extends Component{
                         <p style={{font:'sans-serif',fontsize:"66px",fontWeight:"bold",lineHeight:"2.0"}}>
                             Apart from Academics , I am very much interested in Music and playing piano . If given an option to change my career , I would love to become
                             a band player. I am also interested in organising events and yes I have organised some events as a part of School and college culturals!! 
-                            Being a fan of AR Rahman and Shah-rukh Khan, I love watching movies, would plug my earphones and listen music in my leisure time.
+                            Being a fan of AR Rahman and Shah-rukh Khan, I love watching movies, would plug in my earphones and listen music in my leisure time.
                         </p>
 
                         <p style={{font:'sans-serif',fontsize:"66px",fontWeight:"bold",lineHeight:"2.0"}}>
                             I've got a wonderful bunch of like-minded people as my friends, who were with me in my ups and downs.
-                            Currently , Persuing Undergraduation in Computer Science and Engineering , I look forward to work in a team environment
-                            Keen on improving my skills so as to get placed in an orgranization, enabling me to utilize my skills for the growth and development of the orgaization. 
+                            Currently, Persuing Undergraduation in Computer Science and Engineering , I look forward to work in a team environment and
+                            Currently in the scope of improving my skills so as to get placed in an orgranization, enabling me to utilize my skills for the growth and development of the orgaization. 
                         </p>
 
                         <p style={{font:'sans-serif',fontsize:"66px",fontWeight:"bold",lineHeight:"2.0"}}>
-                            This webpage is done using React-js . Got to know the basics of React and implemented the concepts while designing the webpage.
+                            This webpage is done using React-js . Got to know the basics of React and designed the webpage using the concepts.
                             <br/>
                             Cheers!!
 
